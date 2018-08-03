@@ -2632,6 +2632,8 @@ fieldset.input input[type="submit"]:hover {
 	}
 	.logo {
 		width: 26.5%;
+		opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 	}
 	.cssmenu {
 		width: 43.5%;
